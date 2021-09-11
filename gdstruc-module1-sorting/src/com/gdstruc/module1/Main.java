@@ -30,6 +30,19 @@ public class Main {
         numbers1[8] = 52;
         numbers1[9] = 34;
 
+        int[] numbers2 = new int[10];
+
+        numbers2[0] = 57;
+        numbers2[1] = 38;
+        numbers2[2] = 66;
+        numbers2[3] = 41;
+        numbers2[4] = 110;
+        numbers2[5] = 74;
+        numbers2[6] = 24;
+        numbers2[7] = 12;
+        numbers2[8] = 1;
+        numbers2[9] = 39;
+
         //Descending Bubble Sort
         System.out.println("|Descending Order|\n\nBefore bubble sort:");
         printArrayElements(numbers);
@@ -48,6 +61,16 @@ public class Main {
 
         System.out.println("\n\nAfter selection sort:");
         printArrayElements(numbers1);
+
+        System.out.println("\n\n====================================");
+        //Descending Selection Sort
+        System.out.println("\n\nBefore selection sort:");
+        printArrayElements(numbers2);
+
+        selectionSort1(numbers2);
+
+        System.out.println("\n\nAfter selection sort:");
+        printArrayElements(numbers2);
     }
     private static void bubbleSort(int[] arr)
     {
@@ -83,8 +106,33 @@ public class Main {
             int temp = arr[lastSortedIndex];
             arr[lastSortedIndex] = arr[smallestIndex];
             arr[smallestIndex] = temp;
+
+            System.out.println("this");
+            printArrayElements(arr);
         }
     }
+
+    private static void selectionSort1(int[] arr)
+    {
+        for (int firstSortedIndex = 0; firstSortedIndex < arr.length ;firstSortedIndex++)
+        {
+            int largestIndex = arr.length-1;
+
+            for (int i = arr.length -1; i >= firstSortedIndex; i--)
+            {
+                if (arr[i] > arr[largestIndex])
+                {
+                    largestIndex = i;
+                }
+            }
+
+            int temp = arr[firstSortedIndex];
+            arr[firstSortedIndex] = arr[largestIndex];
+            arr[largestIndex] = temp;
+
+        }
+    }
+
     private static void printArrayElements(int[] arr)
     {
         for (int j : arr) {
