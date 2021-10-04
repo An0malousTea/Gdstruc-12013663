@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a4014e2-427a-4402-8a71-d41570998136" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gdstruc/module2/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gdstruc/module2/PlayerLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/gdstruc/module2/PlayerNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Midterms/src/com/gdstruc/midterms/ArrayStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Midterms/src/com/gdstruc/midterms/Card.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Midterms/src/com/gdstruc/midterms/LinkedStack.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Midterms.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled104.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../Midterms/Midterms.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,10 +94,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gdstruc-module2-lists" />
+  </component>
   <component name="RunManager">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="com.gdstruc.module2.Main" />
-      <module name="untitled104" />
+      <module name="Midterms" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
@@ -119,5 +124,17 @@
       <updated>1631883963607</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>
