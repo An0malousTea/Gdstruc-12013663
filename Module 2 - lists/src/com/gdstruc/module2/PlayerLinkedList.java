@@ -57,43 +57,53 @@ public class PlayerLinkedList {
 
     }
 
-    public void contains(Player player){
+    public boolean contains(Player player){
 
-        String check = "doesn't exist in this list.";
+        boolean check = false;
 
         PlayerNode current1 = head;
         while (current1 != null){
 
             if (player == current1.getPlayer()){
 
-                check = "exists in this list.";
+                check = true;
             }
 
             current1 = current1.getNextPlayer();
         }
 
-        System.out.println("The element " + check);
+        if (check)
+        {
+            System.out.println("True");
+        }
+        else if (!check)
+        {
+            System.out.println("False");
+        }
+
+        return check;
     }
 
-    public void indexOf(int size,Player player){
+    public int indexOf(Player player){
 
-        int indexNum = size - 1;
-
+        int indexNum = 0;
         PlayerNode current1 = head;
 
-        while(current1.getPlayer() != player){
+        while(current1 != null){
 
-            indexNum--;
+            if(current1.getPlayer().equals(player))
+            {
+                System.out.println(indexNum);
+                return indexNum;
+            }
+
             current1 = current1.getNextPlayer();
-        }
-
-        if (indexNum < 0){
-
-            System.out.println("This element doesn't exist in this list.");
+            indexNum++;
         }
 
 
-        System.out.println("The element's index number is " + indexNum);
-
+        System.out.println(indexNum);
+        return indexNum;
 }
+
 }

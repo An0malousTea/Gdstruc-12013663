@@ -44,11 +44,13 @@ public class Main {
         //If the element is contained in the list
         playerLinkedList.contains(bacon);
 
+
         //If the element isn't contained in the list
         playerLinkedList.contains(bum);
 
+
         System.out.println("\n indexOf(): ");
-        playerLinkedList.indexOf(2,arts);
+        playerLinkedList.indexOf(arts);
     }
 
 

@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a4014e2-427a-4402-8a71-d41570998136" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gdstruc/module2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gdstruc/module2/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/gdstruc/module2/PlayerLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gdstruc/module2/PlayerLinkedList.java" afterDir="false" />
     </list>
