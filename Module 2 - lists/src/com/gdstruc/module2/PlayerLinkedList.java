@@ -72,14 +72,6 @@ public class PlayerLinkedList {
             current1 = current1.getNextPlayer();
         }
 
-        if (check)
-        {
-            System.out.println("True");
-        }
-        else if (!check)
-        {
-            System.out.println("False");
-        }
 
         return check;
     }
@@ -93,7 +85,7 @@ public class PlayerLinkedList {
 
             if(current1.getPlayer().equals(player))
             {
-                System.out.println(indexNum);
+
                 return indexNum;
             }
 
@@ -102,7 +94,6 @@ public class PlayerLinkedList {
         }
 
 
-        System.out.println(indexNum);
         return indexNum;
 }
 
