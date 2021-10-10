@@ -8,14 +8,14 @@ public class PlayerLinkedList {
     private PlayerNode head;
 
 
-    public void addToFront(Player player, PlayerLinkedList playerLinkedList, int size)
+    public void addToFront(Player player, PlayerLinkedList playerLinkedList)
     {
         PlayerNode playerNode = new PlayerNode(player);
         playerNode.setNextPlayer(head);
         head = playerNode;
 
         System.out.println("*Added Element*");
-        playerLinkedList.sizeVariable(size);
+        playerLinkedList.getSize();
         System.out.println("");
     }
 
@@ -31,17 +31,18 @@ public class PlayerLinkedList {
         System.out.println("\n\n    ");
     }
 
-    public void deleteElement(PlayerLinkedList playerLinkedList, int size){
+    public void deleteElement(PlayerLinkedList playerLinkedList){
         PlayerNode current1 = head;
         PlayerNode current2 = current1.getNextPlayer();
         head = current2;
+        current1 = null;
 
         System.out.println("*Deleted Element*");
-        playerLinkedList.sizeVariable(size);
+        playerLinkedList.getSize();
         System.out.println("");
     }
 
-    public void sizeVariable(int size){
+    public int getSize(){
 
         PlayerNode current1 = head;
         int counter = 0;
@@ -52,11 +53,11 @@ public class PlayerLinkedList {
         }
         System.out.println("Element count: " + counter);
 
-        size = counter;
+        return counter;
 
     }
 
-    public void playerChecker(Player player, PlayerLinkedList playerLinkedList){
+    public void contains(Player player){
 
         String check = "doesn't exist in this list.";
 
@@ -74,7 +75,7 @@ public class PlayerLinkedList {
         System.out.println("The element " + check);
     }
 
-    public void indexChecker(int size,Player player){
+    public void indexOf(int size,Player player){
 
         int indexNum = size - 1;
 

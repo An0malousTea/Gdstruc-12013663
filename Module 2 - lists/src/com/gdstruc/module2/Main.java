@@ -22,9 +22,9 @@ public class Main {
 
         System.out.println("\n 2. Updates how many elements are present in the linked list.");
 
-        playerLinkedList.addToFront(arts,playerLinkedList,size);
-        playerLinkedList.addToFront(bacon,playerLinkedList,size);
-        playerLinkedList.addToFront(alan,playerLinkedList,size);
+        playerLinkedList.addToFront(arts,playerLinkedList);
+        playerLinkedList.addToFront(bacon,playerLinkedList);
+        playerLinkedList.addToFront(alan,playerLinkedList);
 
         System.out.println("\n 1. Removes the first Element");
 
@@ -32,7 +32,7 @@ public class Main {
         playerLinkedList.printList();
 
 
-        playerLinkedList.deleteElement(playerLinkedList,size);
+        playerLinkedList.deleteElement(playerLinkedList);
 
         System.out.println("\n After Deleting: ");
         playerLinkedList.printList();
@@ -42,13 +42,13 @@ public class Main {
 
         System.out.println("\n contains(): ");
         //If the element is contained in the list
-        playerLinkedList.playerChecker(bacon,playerLinkedList);
+        playerLinkedList.contains(bacon);
 
         //If the element isn't contained in the list
-        playerLinkedList.playerChecker(bum,playerLinkedList);
+        playerLinkedList.contains(bum);
 
         System.out.println("\n indexOf(): ");
-        playerLinkedList.indexChecker(2,arts);
+        playerLinkedList.indexOf(2,arts);
     }
 
 
