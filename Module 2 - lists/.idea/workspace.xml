@@ -2,8 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1a4014e2-427a-4402-8a71-d41570998136" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Module 3 -Quiz 3-Matchmaking/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module 3 -Quiz 3-Matchmaking/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module 3 -Quiz 3-Matchmaking/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module 3 -Quiz 3-Matchmaking/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module 3 -Quiz 3-Matchmaking/Module 3 -Quiz 3-Matchmaking.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module 3 -Quiz 3-Matchmaking/src/com/gdstruc/Module3/ArrayQueue.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Module 3 -Quiz 3-Matchmaking/src/com/gdstruc/Module3/Player.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/gdstruc/module2/PlayerLinkedList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/gdstruc/module2/PlayerLinkedList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sample Project/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sample Project/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sample Project/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sample Project/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sample Project/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sample Project/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sample Project/.idea/runConfigurations.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sample Project/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sample Project/Sample Project.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Sample Project/src/com/charlesanyayahan/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +45,9 @@
     </file-type-list>
   </component>
   <component name="ProjectId" id="1yGhiUtlUem5O4lHMFoRs7iKYGZ" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
