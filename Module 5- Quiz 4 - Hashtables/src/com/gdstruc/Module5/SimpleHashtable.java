@@ -121,7 +121,6 @@ public class SimpleHashtable {
         int hashedKey = findKey(key);
         hashtable[hashedKey] = null;
 
-
         for (int i = 0; i < hashtable.length; i++)
         {
 

@@ -23,6 +23,7 @@ public class Main {
         hashtable.remove("coffee");
         System.out.println("New hashtable: ");
         hashtable.printHashtable();
-        System.out.println(hashtable.get("bacon"));
+        System.out.println("Printed: ");
+        System.out.println(hashtable.get("tea"));
     }
 }
